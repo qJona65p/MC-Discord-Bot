@@ -5,6 +5,7 @@ It will show as Playing: the status of the server
 - ONLINE
 - OFFLINE
 - STARTING
+
 Alongside the number of players logged in, as well as max players
 
 ## Commands (md or channel msg)
