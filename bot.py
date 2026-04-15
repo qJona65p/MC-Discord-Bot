@@ -143,7 +143,7 @@ class MyClient(discord.Client):
                         print("[MCBot] Server is empty, starting countdown.")
                     elif asyncio.get_running_loop().time() - self.empty_since >= STOP_DELAY_MINUTES*60:
                         print("[MCBot] Server empty for 10 min, shutting down.")
-                        await self.stop_minecraft_server(reason="no players for 10 minutes")
+                        await self.stop_minecraft_server(reason=f"no players for {STOP_DELAY_MINUTES} minutes")
                         online = False
                         players = 0
                     else:
