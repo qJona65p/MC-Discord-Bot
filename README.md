@@ -36,5 +36,8 @@ Stops the server
 ## Auto-stop
 After STOP_DELAY_MINUTES minutes with no one on the server it will auto-stop so you're not wasting resources.
 
+## WIP
+I want to integrate it with a lesser bot to wake up the pc and interact with this one so it can work without me interfering, and that the pc can start and stop automatically.
+
 ## TMUX
 You can access the server console locally using tmux, with the session_name in the config file
